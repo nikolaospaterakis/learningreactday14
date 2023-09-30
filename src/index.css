@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #F55A5A;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding: 10;
+    font-size: 14;
+}
+
+.earth {
+    font-size: 20;
+}
+
+header > h4 {
+    margin: 10;
+}
+
+cards{
+    display: flex;
+    padding: 35 25;
+    height: 280;
+    font-size: 12;
+}
+
+cards > img {
+    max-width: 130;
+    max-height: 200;
+}
+
+.dot {
+    color: #F55A5A;
+}
+
+descr {
+    padding: 10;
+}
+
+descr > h4 > a {
+    color: #918E9B
+}
+
+.des {
+    font-size: 12;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+}
